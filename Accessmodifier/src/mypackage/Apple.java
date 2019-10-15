@@ -12,13 +12,13 @@ public class Apple {
 		Apple app = new Apple();
 		
 		OrangeImp imp = new OrangeImp();
-		//imp.color();
+		imp.color();
 		
-		//app.fruits(imp);
+		app.fruits(imp);
 		
-		Orange myLambda = () -> System.out.println("color is orange");
-		
-		myLambda.color();
+//		Orange myLambda = () -> System.out.println("color is orange");
+//		
+//		myLambda.color();
 		
 	}
 }
